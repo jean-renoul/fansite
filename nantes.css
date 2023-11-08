@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'open sans';
+    src: url(images/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color: rgb(251,211,5);
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+main{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: rgb(251,211,5) ;
+    
+}
+
+.listesmenu{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'open sans';
+    color: black;
+}
+
+.listesmenu a{
+    color: rgb(86,184,75);
+    text-decoration: none;
+    font-family: 'open sans';
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#liste-textes li{
+    padding: 0 3vh;
+}
+
+#logo-nantes{
+    height: 51px;
+    margin: 16px 0;
+}
+
+h1{
+    font-family: Impact;
+    color: white;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    margin: 0 0;
+    font-size: 400%;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.articles-blancs{
+    background-color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+}
+.articles-blancs p{
+    margin: 1%;
+}
+
+
+.images-articles{
+    width: 30%;
+    height: auto;
+}
+
+h2{
+    margin: 0 0;
+}
+div{
+    display: flex;
+}
+
+.articles-jaunes{
+    margin: 2%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3{
+    color: rgb(86,184,75);
+    font-family: 'open sans';
+    margin: 1%;
+    font-size: 200%;
+
+}
+p{
+    font-family: 'open sans';
+}
+#fond-stade{
+    display: flex;
+    justify-content: center;
+}
+#équipe{
+    background-image: url(images/stade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+    
+}
+.joueurs{
+    flex-direction: column;
+    margin: 0 3%;
+}
+.images-joueurs{
+    height: 200px;
+    transition: transform 2s;
+}
+.images-joueurs:hover{
+    opacity: 70%;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#onze{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.biographie-joueurs{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 0 1%;
+}
+.photos-joueurs{
+    height: 100%;
+    width: auto;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.présentations-joueurs{
+    background-color: white;
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+    justify-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(251,211,5);
+}
+hr{
+    background-color: rgb(86,184,75);
+    height: 1px;
+    border: none;
+}
+#bannière{
+    width: 100%;
+    height: auto;
+}
+.histoire{
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.articles-jaunes img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
