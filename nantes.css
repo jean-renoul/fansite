@@ -70,7 +70,6 @@ h1{
     font-size: 400%;
     border: solid;
     border-color: rgb(255, 255, 255);
-
 }
 
 .articles-blancs{
@@ -80,10 +79,12 @@ h1{
     grid-template-columns: 1fr 1fr;
     padding: 1%;
 }
+#section-actus{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .articles-blancs p{
     margin: 1%;
 }
-
 
 .images-articles{
     width: 30%;
@@ -198,4 +199,10 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#classement{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

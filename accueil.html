@@ -55,8 +55,9 @@
         <a id="actus"></a>
         <H3>Actus</H3><hr>
 
-        <section class="articles-blancs">
+        <section id="section-actus" class="articles-blancs">
 
+            <section>
                 <a href="https://www.fcnantes.com/articles/article2809.php?num=43920" target="_blank">
                     <h2>FC Nantes - Stade de Reims - Le groupe nantais</h2>
                     <img class="images-articles" src="images/groupe-nantes.jpg" alt="but ludovic blas">
@@ -70,8 +71,10 @@
                 <img class="images-articles" src="images/youth-league.jpg" alt="brigade loire">
                 <p>Pour le match aller du deuxième tour de Youth League, ce mercredi contre le HJK Helsinki (FIN), le FC Nantes a ouvert gratuitement la Beaujoire. Près de 12 000 places ont déjà été réservées.
                 </p>
-            </a>
+                </a>
+            </section>
 
+            <section>
                 <a href="https://www.youtube.com/watch?v=koPD3nRgTZU" target="_blank">
                     <h2>Résumé : FC Nantes - FC Lorient</h2>
                     <video controls class="images-articles" src="images/FC NANTES - FC LORIENT (5 - 3) - Résumé - (FCN - FCL)  2023-2024.mp4"></video>
@@ -83,6 +86,13 @@
                     <img class="images-articles" src="images/maillots.jpg" alt="maillots FCN">
                     <p>Découvrez ou redécouvrez les maillots emblématiques du FCN, notamment celui de la saison 94/95, saison historique où Nantes frôlait la saison parfaite, ne comptabilisant qu'une seule défaite au compteur.</p>
                 </a>
+            </section>
+
+            <section id="classement">
+                <h2>Classement</h2>
+                <div id="fs-standings"></div> <script> (function (w,d,s,o,f,js,fjs) { w['fsStandingsEmbed']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) }; js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]; js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs); }(window, document, 'script', 'mw', 'https://cdn.footystats.org/embeds/standings-loc.js')); mw('params', { leagueID: 2392, lang: 'fr' }); </script>
+                <h2>Prochain match</h2>
+                <div id="fs-upcoming"></div> <script> (function (w,d,s,o,f,js,fjs) { w['fsUpcomingEmbed']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) }; js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]; js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs); }(window, document, 'script', 'fsUpcoming', 'https://cdn.footystats.org/embeds/upcoming-loc.js')); fsUpcoming('params', { teamID: 440, lang: 'fr' }); </script>            </section>
 
         </section>
         <a id="équipe"></a>
