@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: 'open sans';
     src: url(images/OpenSans-VariableFont_wdth\,wght.ttf);
 }
@@ -16,7 +16,7 @@ main{
 }
 
 header{
-    position: fixed;
+    position:fixed;
     width: 100%;
     z-index: 1;
 }
@@ -205,4 +205,40 @@ form{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+@media screen and (max-width:800px) {
+    .articles-blancs{
+        display: flex;
+        flex-direction: column;
+    }
+    .joueurs img{
+        width: 100%;
+        height: auto;
+    }
+    .articles-jaunes{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        max-width: 800px;
+          
+    }
+    #navmenu{
+        flex-direction: column;
+    }
+    h1{
+        display: none;
+    }
+    .listesmenu a{
+        font-size: small;
+    }
+    .présentations-joueurs{
+        display: flex;
+        flex-direction: column;
+    }
+    .photos-joueurs{
+        height: 33%;
+        padding: 1%;
+    }
+    
 }
